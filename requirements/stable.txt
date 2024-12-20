@@ -1,0 +1,2 @@
+# Stable Python Social Auth, found in Open edX Olive
+edx-oauth2-wordpress-backend>=1.0.8

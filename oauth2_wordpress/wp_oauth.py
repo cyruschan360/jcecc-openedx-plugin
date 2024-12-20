@@ -37,4 +37,9 @@ class WPOAuth2(WPOpenEdxOAuth2):
     # authorization:    https://your-wordpress-site.edu/oauth/authorize
     # token:            https://your-wordpress-site.edu/oauth/token
     # user info:        https://your-wordpress-site.edu/oauth/me
-    BASE_URL = "https://your-wordpress-site.edu"
+    BASE_URL = "https://learn-v2.jcecc.hk"
+    PATH = "portal/oauth/"
+    AUTHORIZATION_ENDPOINT = "authorize"
+    TOKEN_ENDPOINT = "token"
+    USERINFO_ENDPOINT = "me"
+    VERBOSE_LOGGING = False
